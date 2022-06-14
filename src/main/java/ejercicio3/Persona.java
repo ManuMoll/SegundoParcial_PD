@@ -5,8 +5,8 @@ public class Persona {
     private String edad;
 
     public Persona(String nombre,String edad){
-        this.edad =  edad;
         this.nombre = nombre;
+        this.edad =  edad;
     }
 
     public String getNombre(){
@@ -18,7 +18,7 @@ public class Persona {
     public String getEdad(){
         return edad;
     }
-    public String setEdad(String nombre){
-        this.edad = nombre;
+    public String setEdad(String edad){
+        this.edad = edad;
     }
 }

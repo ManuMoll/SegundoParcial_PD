@@ -27,7 +27,7 @@ public class PagWeb implements IPagweb{
     public void notifyObserver(Publicacion publicacion) {
         for (IUsuario usuario: usuarioList){
             if (usuario.getPreferencias().contains(publicacion.getTipo())){
-                usuario.update("Nueva publicacion de tipo: "+ publicacion.getTipo().publicacion);
+                usuario.update("Nueva publicacion de tipo: "+ publicacion.getTipo(),publicacion);
             }
         }
 
