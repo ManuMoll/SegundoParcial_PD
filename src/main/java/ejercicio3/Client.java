@@ -17,6 +17,8 @@ public class Client {
         pagWeb.attach(seguidor5);
 
         pagWeb.agregarPublicacion(new Publicacion("13/06/2022","Videos","video de analisis final de futbol boliviano"));
-        pagWeb.agregarPublicacion(new Publicacion("10/06/2022", );
+        pagWeb.agregarPublicacion(new Publicacion("10/06/2022","Noticias", "Noticia acerca de los casos de Covid en Bolivia" ));
+        pagWeb.agregarPublicacion(new Publicacion("12/06/2022", "Fotos", "Fotos de la amazonia" ));
+
     }
 }

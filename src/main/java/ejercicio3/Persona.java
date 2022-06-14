@@ -12,13 +12,13 @@ public class Persona {
     public String getNombre(){
         return nombre;
     }
-    public String setNombre(String nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
     public String getEdad(){
         return edad;
     }
-    public String setEdad(String edad){
+    public void setEdad(String edad){
         this.edad = edad;
     }
 }

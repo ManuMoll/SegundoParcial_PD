@@ -14,12 +14,12 @@ public class PagWeb implements IPagweb{
     }
 
     @Override
-    public void attach(IUsuario observer) {
+    public void attach(IUsuario usuario) {
         usuarioList.add(usuario);
     }
 
     @Override
-    public void deattach(IUsuario observer) {
+    public void deattach(IUsuario usuario) {
             usuarioList.remove(usuario);
     }
 
